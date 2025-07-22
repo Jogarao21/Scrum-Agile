@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Scrum Methodology</title>
+    <link rel="stylesheet" href="/CSS/Scrum-Agile.css">
+</head>
+<body>
+    <div class="container">
+        <div class="sidebar">
+            <h2>Scrum Guide</h2>
+            <div class="nav-item active" data-section="overview">Overview</div>
+            <div class="nav-item" data-section="scrum-master">Scrum Master</div>
+            <div class="nav-item" data-section="product-owner">Product Owner</div>
+            <div class="nav-item" data-section="development-team">Development Team</div>
+            <div class="nav-item" data-section="sprint-planning">Sprint Planning</div>
+            <div class="nav-item" data-section="sprint-backlog">Sprint Backlog</div>
+            <div class="nav-item" data-section="product-backlog">Product Backlog</div>
+            <div class="nav-item" data-section="daily-scrum">Daily Scrum</div>
+            <div class="nav-item" data-section="sprint-review">Sprint Review</div>
+            <div class="nav-item" data-section="sprint-retro">Sprint Retrospective</div>
+        </div>
+
+        <div class="main-content">
+            <!-- Image Placeholder -->
+            <div class="image-placeholder" id="scrum-image">
+               <img class="scroll-image" src="/IMAGES/scrum.jpg" alt="scrum-Methodology-Image" height="480px" width="780px">
+            </div>
+
+            <!-- Overview Section -->
+            <div class="content-section active" id="overview">
+                <h3>Scrum Methodology Overview</h3>
+                <p>Scrum is an agile framework for managing complex product development. It emphasizes iterative progress, team collaboration, and continuous improvement. Scrum provides a structured yet flexible approach to project management that helps teams deliver high-quality products efficiently.</p>
+                
+                <div class="highlight-box">
+                    <h4>Key Principles of Scrum</h4>
+                    <p style="color: white;">Scrum is built on empirical process control, emphasizing transparency, inspection, and adaptation. It promotes self-organizing teams and focuses on delivering working software in short iterations called sprints.</p>
+                </div>
+
+                <p>The Scrum framework consists of three roles, five events, and three artifacts that work together to create a comprehensive system for product development. Each component serves a specific purpose in ensuring the team can deliver value consistently and adapt to changing requirements.</p>
+
+                <div class="benefits-list">
+                    <div class="benefit-item">
+                        <strong>Flexibility:</strong> Adapt to changing requirements quickly
+                    </div>
+                    <div class="benefit-item">
+                        <strong>Transparency:</strong> Clear visibility into progress and obstacles
+                    </div>
+                    <div class="benefit-item">
+                        <strong>Quality:</strong> Continuous testing and improvement
+                    </div>
+                    <div class="benefit-item">
+                        <strong>Collaboration:</strong> Enhanced team communication and cooperation
+                    </div>
+                </div>
+            </div>
+
+            <!-- Scrum Master Section -->
+            <div class="content-section" id="scrum-master">
+                <h3>Scrum Master</h3>
+                <p>The Scrum Master is a servant-leader who facilitates the Scrum process and helps the team follow Scrum practices. They act as a coach, facilitator, and impediment remover, ensuring the team can work effectively.</p>
+
+                <div class="highlight-box">
+                    <h4>Primary Responsibilities</h4>
+                    <ul>
+                        <li>Facilitate Scrum events and ensure they serve their purpose</li>
+                        <li>Remove impediments that block the team's progress</li>
+                        <li>Coach the team on Scrum practices and principles</li>
+                        <li>Protect the team from external interruptions</li>
+                    </ul>
+                </div>
+
+                <p>The Scrum Master doesn't manage the team in a traditional sense but instead focuses on creating an environment where the team can self-organize and perform at their best. They work closely with the Product Owner to ensure the Product Backlog is well-maintained and with the Development Team to eliminate obstacles.</p>
+
+                <div class="process-step">
+                    <h4>Daily Activities</h4>
+                    <p>Facilitate daily standups, track sprint progress, identify and resolve impediments, and ensure Scrum practices are followed correctly.</p>
+                </div>
+            </div>
+
+            <!-- Product Owner Section -->
+            <div class="content-section" id="product-owner">
+                <h3>Product Owner</h3>
+                <p>The Product Owner is responsible for maximizing the value of the product and managing the Product Backlog. They represent the stakeholders and customers, ensuring the team builds the right product features.</p>
+
+                <div class="highlight-box">
+                    <h4>Key Responsibilities</h4>
+                    <ul>
+                        <li>Define and prioritize Product Backlog items</li>
+                        <li>Collaborate with stakeholders to gather requirements</li>
+                        <li>Accept or reject work completed by the Development Team</li>
+                        <li>Ensure the team understands items in the Product Backlog</li>
+                    </ul>
+                </div>
+
+                <p>The Product Owner must have a clear vision of the product and be able to communicate this vision effectively to the Development Team. They make decisions about what features to build and in what order, based on business value and customer needs.</p>
+
+                <div class="process-step">
+                    <h4>Decision Making Authority</h4>
+                    <p>The Product Owner has the final say on product features, priorities, and acceptance criteria. They must be available to the team for clarification and feedback.</p>
+                </div>
+            </div>
+
+            <!-- Development Team Section -->
+            <div class="content-section" id="development-team">
+                <h3>Development Team</h3>
+                <p>The Development Team consists of professionals who work together to deliver potentially shippable product increments at the end of each sprint. They are self-organizing and cross-functional, possessing all the skills necessary to create the product.</p>
+
+                <div class="highlight-box">
+                    <h4>Team Characteristics</h4>
+                    <ul>
+                        <li>Self-organizing: No external direction on how to turn work into increments</li>
+                        <li>Cross-functional: All skills needed to create product increments</li>
+                        <li>Accountable: The team as a whole is responsible for success</li>
+                        <li>Collaborative: Work together to achieve sprint goals</li>
+                    </ul>
+                </div>
+
+                <p>The Development Team typically consists of 3-9 members with diverse skills including development, testing, design, and analysis. They estimate work, plan sprints, and are responsible for delivering high-quality increments.</p>
+
+                <div class="roles-grid">
+                    <div class="role-card">
+                        <h4>Developers</h4>
+                        <p>Developers are responsible for analyzing user stories and writing clean, functional code to implement features. They collaborate with the team during sprints to build, test, and deliver working software.</p>
+                    </div>
+                    <div class="role-card">
+                        <h4>Testers</h4>
+                        <p>Testers ensure the quality of the product by creating and executing test cases for each feature. They report bugs, validate fixes, and help maintain a stable, error-free application.</p>
+                    </div>
+                    <div class="role-card">
+                        <h4>Designers</h4>
+                        <p>Designers create user-friendly interfaces and provide visual assets to support development. They work closely with the team to ensure the design aligns with user needs and product goals.</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Sprint Planning Section -->
+            <div class="content-section" id="sprint-planning">
+                <h3>Sprint Planning</h3>
+                <p>Sprint Planning is a time-boxed event where the Scrum Team plans the work to be performed during the upcoming sprint. It typically lasts 8 hours for a one-month sprint, with shorter durations for shorter sprints.</p>
+
+                <div class="highlight-box">
+                    <h4>Sprint Planning Goals</h4>
+                    <ul>
+                        <li>Define what can be delivered in the upcoming sprint</li>
+                        <li>Determine how the work will be achieved</li>
+                        <li>Create a Sprint Goal that guides the team</li>
+                        <li>Select Product Backlog items for the sprint</li>
+                    </ul>
+                </div>
+
+                <div class="process-step">
+                    <h4>Part 1: What will be done?</h4>
+                    <p>The Product Owner presents the highest priority Product Backlog items. The Development Team forecasts what they can complete during the sprint.</p>
+                </div>
+
+                <div class="process-step">
+                    <h4>Part 2: How will it be done?</h4>
+                    <p>The Development Team breaks down the selected Product Backlog items into tasks and estimates the effort required to complete them.</p>
+                </div>
+
+                <p>The outcome of Sprint Planning is a Sprint Goal and a Sprint Backlog containing the Product Backlog items selected for the sprint plus a plan for delivering them.</p>
+            </div>
+
+            <!-- Sprint Backlog Section -->
+            <div class="content-section" id="sprint-backlog">
+                <h3>Sprint Backlog</h3>
+                <p>The Sprint Backlog is a subset of Product Backlog items selected for the sprint, plus a plan for delivering them. It represents the work the Development Team plans to accomplish during the sprint to achieve the Sprint Goal.</p>
+
+                <div class="highlight-box">
+                    <h4>Sprint Backlog Components</h4>
+                    <ul>
+                        <li>Selected Product Backlog items</li>
+                        <li>Tasks needed to complete the items</li>
+                        <li>Estimates for each task</li>
+                        <li>Assignment of tasks to team members</li>
+                    </ul>
+                </div>
+
+                <p>The Sprint Backlog is owned by the Development Team and is constantly updated throughout the sprint. As work is completed or new work is discovered, the team updates the Sprint Backlog to reflect the current state of the sprint.</p>
+
+                <div class="process-step">
+                    <h4>Daily Updates</h4>
+                    <p>The Development Team updates the Sprint Backlog daily during the Daily Scrum, tracking progress and identifying any impediments.</p>
+                </div>
+
+                <div class="process-step">
+                    <h4>Flexibility</h4>
+                    <p>The Sprint Backlog can be modified during the sprint, but the Sprint Goal should remain unchanged unless circumstances require significant changes.</p>
+                </div>
+            </div>
+
+            <!-- Product Backlog Section -->
+            <div class="content-section" id="product-backlog">
+                <h3>Product Backlog</h3>
+                <p>The Product Backlog is a prioritized list of features, functions, requirements, enhancements, and fixes that serves as the single source of requirements for the product. It's owned and maintained by the Product Owner.</p>
+
+                <div class="highlight-box">
+                    <h4>Product Backlog Characteristics</h4>
+                    <ul>
+                        <li>Prioritized by business value</li>
+                        <li>Continuously refined and updated</li>
+                        <li>Contains user stories, epics, and technical tasks</li>
+                        <li>Includes acceptance criteria for each item</li>
+                    </ul>
+                </div>
+
+                <p>The Product Backlog is never complete and evolves throughout the product's lifecycle. Higher-ordered items are more detailed and ready for development, while lower-ordered items are less detailed and may need further refinement.</p>
+
+                <div class="process-step">
+                    <h4>Backlog Refinement</h4>
+                    <p>The team regularly reviews and updates the Product Backlog, adding details, estimates, and acceptance criteria to items that will be worked on in upcoming sprints.</p>
+                </div>
+
+                <div class="process-step">
+                    <h4>Prioritization</h4>
+                    <p>The Product Owner continuously prioritizes items based on business value, customer needs, dependencies, and risk factors.</p>
+                </div>
+            </div>
+
+            <!-- Daily Scrum Section -->
+            <div class="content-section" id="daily-scrum">
+                <h3>Daily Scrum</h3>
+                <p>The Daily Scrum is a 15-minute time-boxed event held at the same time and place each day during the sprint. It's designed for the Development Team to synchronize activities and create a plan for the next 24 hours.</p>
+
+                <div class="highlight-box">
+                    <h4>Daily Scrum Format</h4>
+                    <p>Each Development Team member answers three questions:</p>
+                    <ul>
+                        <li>What did I do yesterday that helped achieve the Sprint Goal?</li>
+                        <li>What will I do today to help achieve the Sprint Goal?</li>
+                        <li>Do I see any impediments that prevent me or the team from achieving the Sprint Goal?</li>
+                    </ul>
+                </div>
+
+                <p>The Daily Scrum is not a status meeting but a planning event focused on creating a shared understanding of progress toward the Sprint Goal and identifying any obstacles that need to be addressed.</p>
+
+                <div class="process-step">
+                    <h4>Benefits</h4>
+                    <p>Improves communication, eliminates other meetings, identifies impediments quickly, and promotes quick decision-making.</p>
+                </div>
+
+                <div class="process-step">
+                    <h4>Follow-up</h4>
+                    <p>Detailed discussions, problem-solving, and planning happen after the Daily Scrum with only the relevant team members.</p>
+                </div>
+            </div>
+
+            <!-- Sprint Review Section -->
+            <div class="content-section" id="sprint-review">
+                <h3>Sprint Review</h3>
+                <p>The Sprint Review is held at the end of each sprint to inspect the increment and adapt the Product Backlog if needed. It's a collaborative working session where the Scrum Team and stakeholders review what was accomplished during the sprint.</p>
+
+                <div class="highlight-box">
+                    <h4>Sprint Review Activities</h4>
+                    <ul>
+                        <li>Demonstrate completed Product Backlog items</li>
+                        <li>Discuss what went well and what problems were encountered</li>
+                        <li>Review the current Product Backlog and potential delivery dates</li>
+                        <li>Gather feedback from stakeholders</li>
+                    </ul>
+                </div>
+
+                <p>The Sprint Review is time-boxed to 4 hours for a one-month sprint, with proportionally shorter durations for shorter sprints. It's an informal meeting focused on demonstrating functionality and gathering feedback.</p>
+
+                <div class="process-step">
+                    <h4>Stakeholder Participation</h4>
+                    <p>Stakeholders provide feedback on the demonstrated increment and discuss upcoming priorities and changes in the marketplace.</p>
+                </div>
+
+                <div class="process-step">
+                    <h4>Outcome</h4>
+                    <p>The result is a revised Product Backlog that reflects new opportunities and changes based on stakeholder feedback.</p>
+                </div>
+            </div>
+
+            <!-- Sprint Retrospective Section -->
+            <div class="content-section" id="sprint-retro">
+                <h3>Sprint Retrospective</h3>
+                <p>The Sprint Retrospective occurs after the Sprint Review and before the next Sprint Planning. It's an opportunity for the Scrum Team to inspect itself and create a plan for improvements to be enacted during the next sprint.</p>
+
+                <div class="highlight-box">
+                    <h4>Retrospective Goals</h4>
+                    <ul>
+                        <li>Inspect how the last sprint went regarding people, relationships, processes, and tools</li>
+                        <li>Identify what went well and potential improvements</li>
+                        <li>Create a plan for implementing improvements</li>
+                        <li>Celebrate successes and learn from challenges</li>
+                    </ul>
+                </div>
+
+                <p>The Sprint Retrospective is time-boxed to 3 hours for a one-month sprint. It's a private meeting for the Scrum Team to discuss their working relationships and identify ways to improve their effectiveness.</p>
+
+                <div class="process-step">
+                    <h4>Common Techniques</h4>
+                    <p>Start-Stop-Continue, What went well/What didn't go well/What can be improved, and the 5 Whys technique for root cause analysis.</p>
+                </div>
+
+                <div class="process-step">
+                    <h4>Continuous Improvement</h4>
+                    <p>The team commits to specific improvements for the next sprint, focusing on the most impactful changes they can make.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="/JAVA SCRIPT/Scrum-Agile.js"></script>
+</body>
+</html>
